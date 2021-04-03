@@ -13,6 +13,7 @@ If you want to edit the GUI, install QT Designer: `pip install PyQt5Designer`
 QT Designer will be installed "lib/QtDesigner/designer.exe"
 
 ## APP
+![Cam2ascii App](https://cdn.discordapp.com/attachments/556957526843981825/827879804832317490/unknown.png)
 
 ### Methods
 This drop down field allows you to choose a method of display:
