@@ -6,10 +6,13 @@ First make sure python3 is installed, also install the package installer for pyt
 
 ### Python libs
 Install opencv for the image capture: `pip install opencv-python`
+
 Install Pyqt5 for the GUI: `pip install pyqt5` and `pip install pyqt5-tools`
+
 And make sure PySide2 is installed : `pip install PySide2`
 
 If you want to edit the GUI, install QT Designer: `pip install PyQt5Designer`
+
 QT Designer will be installed "lib/QtDesigner/designer.exe"
 
 ## APP
@@ -25,7 +28,9 @@ This drop down field allows you to choose a method of display:
 
 ### Char list
 A char list represent the gradient of a gray scale
+
 The drop down allows you to choose the list you want to render
+
 You can also add your own list (min 3 characters)
 
 ### Options
