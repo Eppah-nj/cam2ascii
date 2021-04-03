@@ -77,25 +77,19 @@ class Cam2ascii:
         print(self.frameTxt)
 
     def methodGreenChannel(self, displayMethod):
-        self.frame[:, :, 0] = 0
-        self.frame[:, :, 2] = 0
-        self.frame = self.getGrayScale()
+        self.frame = self.frame[:, :, 1]
         self.basicDisplay()
         txt = self.encodeToHtml(self.frameTxt).replace("\n", "<br>")
         displayMethod("<tt style='color:green'>" + str(txt) + "</tt>")
 
     def methodRedChannel(self, displayMethod):
-        self.frame[:, :, 0] = 0
-        self.frame[:, :, 1] = 0
-        self.frame = self.getGrayScale()
+        self.frame = self.frame[:, :, 2]
         self.basicDisplay()
         txt = self.encodeToHtml(self.frameTxt).replace("\n", "<br>")
         displayMethod("<tt style='color:red'>" + str(txt) + "</tt>")
 
     def methodBlueChannel(self, displayMethod):
-        self.frame[:, :, 2] = 0
-        self.frame[:, :, 1] = 0
-        self.frame = self.getGrayScale()
+        self.frame = self.frame[:, :, 0]
         self.basicDisplay()
         txt = self.encodeToHtml(self.frameTxt).replace("\n", "<br>")
         displayMethod("<tt style='color:blue'>" + str(txt) + "</tt>")
