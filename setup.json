@@ -1,0 +1,22 @@
+{
+    "asciiScale": [
+        " .'`^\",:;Il!i><~+_-?][}{1)(|/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$",
+        "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\\|()1{}[]?-_+~<>i!lI;:,\"^`'. ",
+        " .:-=+*#%@",
+        "@%#*+=-:. "
+    ],
+    "baseSelector": 2,
+    "defaultMethod": "Gray scale",
+    "methods": [
+        "Gray scale",
+        "Terminal",
+        "Red channel",
+        "Blue channel",
+        "Green channel"
+    ],
+    "mirror": true,
+    "resolution": {
+        "hor": 113,
+        "ver": 80
+    }
+}
